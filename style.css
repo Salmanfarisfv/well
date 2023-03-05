@@ -1,0 +1,350 @@
+ @charset "utf-8";
+/* CSS Document */
+
+body {
+	margin:0px;
+}
+* {
+	box-sizing:border-box;
+}
+
+/* Navbar */
+
+.container {
+	width:100%;
+	height:100px;
+	background-color:#FFFFFF;
+}
+.logo {
+	width:110px;
+	height:100px;
+	background-color:#000000;
+	margin-left:195px;
+	background-image:url(Work%20Materials/Images/images/logo.png);
+}
+.navbar {
+	width:665px;
+	
+	height:100px;
+	color:#999999;
+	margin-left:375px;
+	text-align:center;
+	padding-top:15px;
+	display: flex;
+}
+.navbar a{
+	padding-left:20px;
+	padding-right:20px;
+	font-weight:900;
+	font-size:14px;
+	font-family: 'Open Sans', sans-serif;
+	color:#666666;
+	text-decoration:none;
+	
+	display: block;
+  
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+  text-transform: uppercase;
+  margin-right: 30px;
+}
+
+
+
+.navbar a:after,
+.navbar a:before {
+  content: "";
+  position: absolute;
+  display: block;
+  border: 0px solid transparent;
+	
+}
+
+.navbar a:after {
+  width: 0%;
+  height: 80%;
+  border-top: 2px solid #999;
+  border-bottom: 2px solid #999;
+  transition: all 0.3s ease;
+}
+
+.navbar a:before {
+  width: 120%;
+  height: 0%;
+  border-left: 2px solid #999;
+  border-right: 2px solid #999;
+  transition: all 0.5s ease;
+}
+
+.navbar a:hover::before {
+  height: 77%;
+}
+
+.navbar a:hover::after {
+  width: 120%;
+}
+
+
+
+
+
+
+
+/* Banner */
+.banner {
+	width:100%;
+	height:828px ;
+}
+
+
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+	
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top:310px;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+	
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+	
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+	height:150px;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+
+
+
+
+
+/*Donec */
+.donec {
+	width:100%;
+	height:140px;
+	background-color:#666666;
+	font-size:30px;
+	font-weight:800;
+	color:#ffffff;
+	font-family: 'Open Sans', sans-serif;
+	text-align:center;
+	padding-top:35px;
+	
+}
+
+/*retina */
+.retina {
+	width:100%;
+	height:275px;
+	color:#F00;
+	padding-top:40px;
+}
+.retina-container {
+	width:900px;
+	height:195px;
+	background-color:#0F3;
+	margin:auto;
+}
+.retina-box {
+	width:300px;
+	height:195px;
+	background-color:#f2f2f2;
+	float:left;
+	border-bottom:1px solid #cccccc;
+	border-top:1px solid #cccccc;
+	border-left:1px solid #ffffff;
+	border-right:1px solid #ffffff;
+	text-align:center;
+	color:#666666;
+	padding-top:25px;
+	font-size:14px;
+	font-weight:700px;
+	font-family: 'Open Sans', sans-serif;
+}
+.retina-box p {
+	font-size:12px;
+	font-weight:400px;
+	}
+	
+/*service */
+.service {
+	width:100%;
+	height:450px;
+	background-color:#f2f2f2;
+	border-top:10px solid #959595;
+}
+.our-container {
+	width:970px;
+	height:445px;
+	-color:#0F0;
+	margin:auto;
+}
+.our-container h5 {
+	text-align:center;
+	font-size:30px;
+	font-weight:800;
+	color:#666666;
+	font-family: 'Open Sans', sans-serif;
+}
+.hr {
+	width:970px;
+	height:1px;
+	background-color:#959595;
+}
+
+/*power */
+
+.power-container {
+	width:970px;
+	height:325px;
+  :#0033FF;
+	padding-top:40px;
+}
+.powerandwell {
+	width:970px;
+	height:100px;
+	-color:#FF00FF;
+	margin-bottom:14px;
+}
+.powerfuladmin {
+	width:463px;
+	height:100px;
+	-color:#FF0000;
+	float:left;
+}
+.powerlogo {
+	width:100px;
+	height:100px;
+	-color:#000;
+	float:right;
+}
+.powertext {
+	width:345px;
+	height:100px;
+	-color:#660000;
+	text-align:right;
+}
+.powertext h5 {
+	font-size:14px;
+font-weight:700 color:#666666;
+	text-align:right;
+}
+.powertext p {
+	font-size:12px;
+	font-weight:400;
+	color:#7e7e7e;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*well */
+
+.wellsupport {
+	width:463px;
+	height:100px;
+	color:#FF0000;
+	float:right;
+}
+.welllogo {
+	width:100px;
+	height:100px;
+	-color:#000;
+	float:left;
+}
+.welltext {
+	width:345px;
+	height:100px;
+	-color:#660000;
+	float:right;
+}
+.welltext h5 {
+	font-size:14px;
+font-weight:700 color:#666666;
+	text-align:left;
+}
+.welltext p {
+	font-size:12px;
+	font-weight:400;
+	color:#7e7e7e;
+	font-family: 'Open Sans', sans-serif;
+	text-align:left;
+}
+
+/*copy */
+
+.copy {
+	width:100%;
+	height:50px;
+	background-color:#666;
+	font-size:12px;
+	font-weight:400;
+	font-family: 'Open Sans', sans-serif;
+	color:#ffffff;
+	text-align:center;
+	padding-top:20px;
+}
